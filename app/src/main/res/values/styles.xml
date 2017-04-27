@@ -2,9 +2,12 @@
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="@android:style/Theme.Material">
-        <!--<item name="android:colorPrimary">@color/colorPrimary</item>
+        <!-- This is the color of the Toolbar -->
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <!-- This is the color of the Status bar -->
         <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="android:colorAccent">@color/colorAccent</item>-->
+        <!-- The Color of the Status bar -->
+        <item name="android:statusBarColor">@color/colorPrimary</item>
     </style>
 
 </resources>
